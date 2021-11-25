@@ -1,0 +1,33 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    # please, don't modify this variable
+    calculations = input().split()
+
+    # complete the code
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12368#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 5. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    12 34 56 78 97 45 23 67
+    Correct output:
+    67
+
+    Your code output:
+
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 11, in <module>
+        print(calculations[h])
+    IndexError: list index out of range
+  time: Thu, 18 Nov 2021 07:02:12 UTC
+record: -1
